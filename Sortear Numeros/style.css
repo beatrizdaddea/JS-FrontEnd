@@ -4,7 +4,7 @@
 
 :root{
     --font-familt: 'Nunito', sans-serif;
-    --bg-color:#0AA1DD;
+    --bg-color:#9EA1D4;
     --primary-color:#E8F9FD;
 }
 
@@ -55,19 +55,18 @@ h3{
     margin-top: 25px;
     text-transform: uppercase;
     padding: 20px 40px;
-    border: 2.4px solid #144272;
+    border: 2.4px solid #A8D1D1;
     border-radius: 15px;
 }
 
 .btn-jogar:hover{
     animation: pulsate 3s ease-in-out;
-    background-color: #70b2f8;
-    color: var(--primary-color);
+    background-color: #A8D1D1;
     font-weight: 800;
 }
 
 @keyframes pulsate{
     0%{
-        box-shadow: 0 0 30px #02274e
+        box-shadow: 0 0 30px #A8D1D1
     }
 }
