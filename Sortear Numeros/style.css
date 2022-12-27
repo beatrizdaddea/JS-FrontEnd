@@ -25,6 +25,10 @@ h1{
     font-size: 4em;
 }
 
+h2 {
+    font-size: 4em;
+}
+
 h3{
     margin-top: 20px;
     font-size: 2em;
@@ -41,4 +45,29 @@ h3{
     font-size: 4em;
     padding: 15px;
     margin: 21px;
+}
+
+.btn-jogar{
+    background-color: var(--primary-color);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;;
+    margin-top: 25px;
+    text-transform: uppercase;
+    padding: 20px 40px;
+    border: 2.4px solid #144272;
+    border-radius: 15px;
+}
+
+.btn-jogar:hover{
+    animation: pulsate 3s ease-in-out;
+    background-color: #70b2f8;
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+@keyframes pulsate{
+    0%{
+        box-shadow: 0 0 30px #02274e
+    }
 }
